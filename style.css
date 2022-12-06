@@ -1,0 +1,254 @@
+
+body{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo-area img:hover, button:hover{
+    cursor: pointer;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.bcwrap,.order-head,.login-wrap,.cart-wrap,.logo-area,.login-area,.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.order-head button{
+    border: 0;
+    background-color: #e4002b;
+    color: #fff;
+    padding: 12px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 15px;
+}
+.order-head button:hover{
+    background-color: #f81740;
+}
+.order-head{
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    font-weight: bolder;
+}
+.alignsb,.top-head{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.cart-wrap{
+    border-left: 1px solid rgba(181, 181, 181, 0.473);
+    height: 30px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.cart-wrap p{
+    position: relative;
+    left: 29px;
+}
+.cart-wrap span{
+    position: relative;
+    left: 8px;
+}
+.login-area{
+    margin-right: 135px;
+}
+.login-wrap button{
+   border: 0;
+   background-color: transparent;
+   font-weight: bolder;
+   margin: 5px;
+}
+.logo-area{
+    margin-left: 125px;
+}
+.logo-area button{
+    border: 0;
+    background-color: transparent;
+    font-weight: bolder;
+    margin-left: 35px;
+}
+.location{
+    height: 52px;
+    border-bottom: 1px solid rgba(181, 181, 181, 0.473);
+    width: 100%;
+}
+.location button{
+    border-radius: 50px;
+    background-color: black;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 11px;
+    padding: 8px 10px;
+}
+.location p{
+    margin: 20px;
+    font-size: medium;
+}
+.stripe{
+    height: 20px;
+    width: 8px;
+    background-color: #e4002b;
+}
+.stripes-wrap{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: -3px;
+}
+.welcome-banner h1{
+    font-size: 35px;
+    margin-left:200px;
+}
+.welcome-banner{
+    background-color: #f8f7f5;
+    height:560px;
+}
+.welcome-banner img{
+    width: 100%;
+}
+.bcline{
+    width: 780px;
+    height: 2px;
+    background-color: #e6e5e4;
+    margin-left:30px ;
+}
+.bcwrap label{
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 160px;
+}
+.bcwrap{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.category-card{
+    background-color: #f1f0ef;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 250px;
+    cursor: pointer;
+}
+.category-card img{
+    border-radius: 5px;
+}
+.category-card label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    cursor: pointer;
+}
+.categories-wrap{
+    display: flex;
+    margin-left: 17%;
+}
+.category-card-new{
+    background-color: #f1f0ef;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 250px;
+    cursor: pointer;
+}
+.align{
+    margin: 30px;
+    height: 100px;
+    font-size: medium;
+    margin-left: 65px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.category-card-new img{
+    margin-top: 40px;
+}
+.deal-section{
+    width: 100%;
+    background-color: black;
+}
+.deal-section .stripe{
+    height: 35px;
+    width: 15px;
+}
+.white{
+    color: #fff;
+}
+.offer-heading{
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 160px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+footer{
+    color: #fff;
+    background-color: black;
+}
+
+.space-btw{
+    display: flex;
+    justify-content: space-evenly;
+}
+.kfc-footer-texts,.kfc-footer-map,.kfc-online-app{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+}
+.astore,.gplay,.kfc-footer-img{
+    margin: 10px;
+}
+.kfc-footer-map img,.kfc-footer-map a,.footer-text a{
+    color: #fff;
+    margin: 5px;
+    text-decoration: none;
+    font-size: small;
+}
+footer{
+    height: 460px;
+}
+.space-btw{
+    padding-top: 170px;
+}
+.footer-down,.social-media{
+    display: flex;
+    align-items: center;
+    
+}
+.social-media img{
+    margin: 5px;
+}
+.social-media{
+    margin-left: 350px;
+}
+.copyright{
+    margin-left: 500px;
+    font-size: smaller;
+    font-weight: 100;
+    color: #b7a99b;
+}
+.footer-down{
+    margin-top: 100px;
+}
+
